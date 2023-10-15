@@ -1,3 +1,3 @@
 ## FreeCodeCamp
 
-Repositório com problemas dos cursos da [FreeeCodeCamp](https://www.freecodecamp.org).
+<p>Repositório com problemas dos cursos da <a href="https://www.freecodecamp.org" target="_blank", rel="noopener">FreeeCodeCamp</a>.</p>
