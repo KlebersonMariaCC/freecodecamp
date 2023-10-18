@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Formulário de Inscrição</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1 id="title"> Formulário de Inscrição</h1>
+    <p id="description"> Um modelo de formulário de inscrição</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Nome <input  placeholder="Nome completo" id="name" type="text" required></label>
+        <label id="email-label"for="email" >E-mail <input  placeholder="Seu melhor E-mail" id="email" type="email" required></label>
+        <label id="number-label" for="number">Idade <input id="number" type="number" min= 13 max=120 placeholder="Escolha sua idade"></label>
+      </fieldset>
+      <fieldset>
+        <legend for="dropdown">Estuda ou trabalha?</legend>
+        <select id="dropdown">
+          <option>Estudo</option>
+          <option>Trabalho</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Está cursando uma faculdade?</legend>
+      <label for=''>Sim <input type="radio" name="estuda-ou-trabalha" value="sim"></label>
+      <label>Não <input type="radio"  name="estuda-ou-trabalha" value="nao" checked></label>
+      </fieldset>
+      <fieldset id="area-de-atuacao">
+        <legend>Área/Áreas de atuação em tecnologia</legend>
+      <label><input type="checkbox"  name="frontend" value="frontend"> Frontend</label>
+      <label><input type="checkbox" name="backend" value="backend"> Backend</label>
+      <label><input type="checkbox" name="dados" value="dados"> Dados</label>
+      <label><input type="checkbox"  name="ui-ux" value="ui-ux"> UI/UX</label>
+      <label><input type="checkbox"  name="outra" value="outra"> Outra</label>
+      </fieldset>
+      <label>Comentários adicionais: <textarea rows=5 cols=20> </textarea>
+      </label>
+      <button id="submit" type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
